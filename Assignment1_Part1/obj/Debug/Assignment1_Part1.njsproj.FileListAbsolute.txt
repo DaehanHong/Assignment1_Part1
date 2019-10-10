@@ -1,0 +1,4 @@
+C:\Users\Daehan\Desktop\JavaScript\Week6\Assignment1_Part1\Assignment1_Part1\obj\Debug\Assignment1_Part1.njsprojAssemblyReference.cache
+C:\Users\Daehan\Desktop\JavaScript\Week6\Assignment1_Part1\Assignment1_Part1\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\Daehan\Desktop\JavaScript\Assignment1_Part1\Assignment1_Part1\obj\Debug\Assignment1_Part1.njsprojAssemblyReference.cache
+C:\Users\Daehan\Desktop\JavaScript\Assignment1_Part1\Assignment1_Part1\bin\Microsoft.NodejsTools.WebRole.dll

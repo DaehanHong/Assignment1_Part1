@@ -1,0 +1,36 @@
+doctype html
+title
+    | Daehan Hong | #{title}
+meta(name='viewport', content='width=device-width, initial-scale=1.0')
+meta(name='description', content='Daehan Hong - Programmer')
+// stylesheets
+//link(rel="shortcut icon" href="/favicon.ico" type="images/x-icon")
+//link(rel="icon" href="/favicon.ico" type="images/x-icon")
+link(rel='stylesheet', href='/stylesheets/style.css')
+link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+link(rel='stylesheet', href='/stylesheets/bootstrap-theme.min.css')
+link(href='https://fonts.googleapis.com/css?family=Cormorant+Garamond', rel='stylesheet')
+// external javascript links
+script(src='"https://use.fontawesome.com/5d80d4fbef.js"')
+script(src='https://code.jquery.com/jquery-2.1.4.min.js')
+script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js')
+nav.navbar.navbar-mycolour.navbar-fixed-top
+// this section handles the mobile navigation menu button
+.navbar-header
+a.navbar-brand(href='/') Daehan Hong
+button.navbar-toggle.collapsed(data-toggle='collapse', type='button', data-target='#navbar')
+    span.sr-only
+    span.icon-bar
+    span.icon-bar
+    span.icon-bar
+// this is the default navigation bar
+#navbar.navbar-collapse.collapse
+ul.nav.navbar-nav
+    li
+    a(href='/about') About Me &nbsp;
+    li
+    a(href='/projects') Projects &nbsp;
+    li
+    a(href='/services') Services &nbsp;
+    li
+    a(href='/contact') Contact Me &nbsp;

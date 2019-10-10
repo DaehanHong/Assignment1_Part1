@@ -1,0 +1,107 @@
+/***MAIN BODY ATTRIBUTES***/
+body {
+  height: 100%;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+/***FOOTER ATTRIBUTES***/
+footer {
+  width: 100%;
+  color: #000000;
+  background-color: #DEDBD2;
+  font-size: 12px;
+  height: 75px;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  position: fixed;
+  bottom: 0%;
+}
+
+/***MAIN CONTAINER LAYOUT***/
+#container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+}
+/***END MAIN CONTAINER***/
+
+/***SECTIONS***/
+#textbox{
+	background-color: #FFFFFF;
+  border-radius: 5px;
+	width: 100%;
+  padding: 15px;
+}
+
+#textbox-main {
+	background-color: #F3ECFF;
+  border-radius: 5px;
+	width: 77%;
+  padding: 15px;
+  font-family: "Helvetica", "sans-serif";
+  font-size: 18px;
+  float: left;
+}
+
+#twitter-box {
+  width: 20%;
+  margin-left: 3%;
+  float: left;
+}
+/***END OF SECTIONS***/
+
+/***CUSTOM NAVBAR SETTINGS***/
+.navbar-mycolour {
+  background-color: #DEDBD2;
+  color: #000000;
+  border-radius: 0;
+}
+
+.navbar-mycolour .navbar-nav > li > a {
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.navbar-mycolour .navbar-nav > li > a:hover {
+  background-color: #6E7272;
+  color: #FFFFFF;
+}
+
+.navbar-mycolour .navbar-brand {
+  background-color: #DEDBD2;
+  color: #000000;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-mycolour .navbar-brand:hover {
+  background-color: #6E7272;
+  color: #FFFFFF;
+}
+
+.navbar-mycolour .navbar-toggle .icon-bar {
+  background-color: #FFFFFF;
+}
+/***END OF NAVBAR SETTINGS***/
+
+/***SOCIAL BUTTONS DIV***/
+#social a {
+  color: black;
+}
+
+#social a:hover {
+  color: #6E7272;
+}
+/***END OF SOCIAL BUTTONS***/
+
+/***IMAGES***/
+.headshot {
+  display: block;
+  margin: auto;
+	border-radius: 10px;
+}
+/***END OF IMAGES***/

@@ -1,0 +1,31 @@
+include partials/header.pug
+
+link(rel='stylesheet', href='/stylesheets/main.css')
+
+#container
+  h1
+    | #{title}
+  section#textbox
+    p
+    | If you would like a copy of my resume, you can 
+    a(href='/downloads/resume.pdf', target='_blank') download it here
+    | . Otherwise please use
+    |         the form below to contact me via email. (Form to follow using mail server).
+  h2
+    | Contact Form
+  div(class='container')
+    form(method='post' action='/contact')
+      div
+        label Name: &nbsp; &nbsp; &nbsp;
+        input(type='text' id='name' name='name' required placeholder='Name')
+      div
+        label ContactNo: &nbsp; &nbsp; &nbsp;
+        input(type='text' id='contactNo' name='contactNo' require placeholder='ContactNo')
+      div
+        label Email: &nbsp; &nbsp; &nbsp;
+        input(type='text' id='email' name='email' require placeholder='Email')
+      div
+        label Message: &nbsp;
+        input(type='text' id='message' name='message' require placeholder='Message')
+      input(type='submit' value='Send' id='submit')
+include partials/footer.pug
