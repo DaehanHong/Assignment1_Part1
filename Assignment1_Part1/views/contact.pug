@@ -1,7 +1,5 @@
 include partials/header.pug
 
-link(rel='stylesheet', href='/stylesheets/main.css')
-
 #container
   h1
     | #{title}
@@ -13,7 +11,7 @@ link(rel='stylesheet', href='/stylesheets/main.css')
     |         the form below to contact me via email. (Form to follow using mail server).
   h2
     | Contact Form
-  div(class='container')
+  div.container
     form(method='post' action='/contact')
       div
         label Name: &nbsp; &nbsp; &nbsp;
