@@ -99,9 +99,17 @@ footer {
 /***END OF SOCIAL BUTTONS***/
 
 /***IMAGES***/
-.headshot {
+.aboutMe {
   display: block;
   margin: auto;
 	border-radius: 10px;
 }
 /***END OF IMAGES***/
+
+.nav.navbar-nav {
+    font-size: 15px;
+}
+
+a.navbar-brand {
+    font-size: 20px;
+}
