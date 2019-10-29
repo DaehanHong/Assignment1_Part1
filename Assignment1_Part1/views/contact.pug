@@ -9,12 +9,17 @@ include partials/header.pug
     | #{title}
   section#textbox
     p
-    | If you would like a copy of my resume, you can 
-    a(href='/downloads/resume.pdf', target='_blank') download it here
-    | . Otherwise please use
-    |         the form below to contact me via email. (Form to follow using mail server).
+     i.fa.fa-phone-square.fa-1x : 705-970-7312
+    p
+     i.fa.fa-envelope-square.fa-1x : 200307118@student.georgianc.on.ca
+    p
+     a(href='https://www.facebook.com/daehan.hong.1', target='_blank')
+       i.fa.fa-facebook-square.fa-1x : Facebook Account
+    p
+     a(href='https://twitter.com/DaehanHong', target='_blank')
+       i.fa.fa-twitter-square.fa-1x : Twitter Account
   h2
-    | Contact Form
+    | Direct Contact Form
   div.container
     form(method='post' action='/contact')
       div
